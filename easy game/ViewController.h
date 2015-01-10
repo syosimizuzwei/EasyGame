@@ -9,7 +9,20 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+       IBOutlet UILabel *result;
+    IBOutlet UIImageView *aite;
+    IBOutlet UIImageView *watasi;
+    int mine;
+    int en;
+        float zenntai;
+    float syousuu;
+    float syouritu;
+   }
 
-
+-(IBAction)go;
+-(IBAction)pa;
+-(IBAction)tyo;
+-(IBAction)idou;
 @end
 
