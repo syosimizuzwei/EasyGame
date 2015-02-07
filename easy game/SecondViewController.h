@@ -23,4 +23,5 @@
 -(IBAction)downbutton;
 -(IBAction)rightbutton;
 -(IBAction)leftbutton;
+-(IBAction)swioe;
 @end

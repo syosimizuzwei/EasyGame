@@ -18,6 +18,8 @@
     [super viewDidLoad];
     label.text=[NSString stringWithFormat:@""];
     // Do any additional setup after loading the view.
+    
+    [self createGestureRecognizers];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -40,6 +42,84 @@
 //１した
 //２みぎ
 //３ひだり
+
+
+
+
+- (void)createGestureRecognizers {
+
+      UISwipeGestureRecognizer *rightSwipeGesture = [[UISwipeGestureRecognizer alloc]
+                                                initWithTarget:self action:@selector(handleSwipeGesture:)];
+      rightSwipeGesture.direction = UISwipeGestureRecognizerDirectionRight;
+      rightSwipeGesture.numberOfTouchesRequired = 1;
+      [self.view addGestureRecognizer:rightSwipeGesture];
+    
+    UISwipeGestureRecognizer *leftSwipeGesture = [[UISwipeGestureRecognizer alloc]
+                                                   initWithTarget:self action:@selector(handleSwipeGesture:)];
+    leftSwipeGesture.direction = UISwipeGestureRecognizerDirectionLeft;
+    leftSwipeGesture.numberOfTouchesRequired = 1;
+    [self.view addGestureRecognizer:leftSwipeGesture];
+    
+    UISwipeGestureRecognizer *upSwipeGesture = [[UISwipeGestureRecognizer alloc]
+                                                   initWithTarget:self action:@selector(handleSwipeGesture:)];
+    upSwipeGesture.direction = UISwipeGestureRecognizerDirectionUp;
+    upSwipeGesture.numberOfTouchesRequired = 1;
+    [self.view addGestureRecognizer:upSwipeGesture];
+    
+    UISwipeGestureRecognizer *downSwipeGesture = [[UISwipeGestureRecognizer alloc]
+                                                   initWithTarget:self action:@selector(handleSwipeGesture:)];
+    downSwipeGesture.direction = UISwipeGestureRecognizerDirectionDown;
+    downSwipeGesture.numberOfTouchesRequired = 1;
+    [self.view addGestureRecognizer:downSwipeGesture];
+
+}
+
+
+- (void)handleSwipeGesture:(id)sender {
+    
+    NSLog(@"%@", [sender valueForKey:@"direction"]);
+    
+
+    switch ([[sender valueForKey:@"direction"] intValue]) {
+        case 4:
+            //上
+            ene=0;
+            break;
+        case 2:
+            ene=1;
+            //左
+            break;
+        case 8:
+            ene=2;
+            //下
+            break;
+        case 1:
+            ene=3;
+            //右
+            break;
+            
+        default:
+            break;
+    }
+
+}
+
+- (void)handleRotateGesture:(id)sender {
+    UIRotationGestureRecognizer *rotate = (UIRotationGestureRecognizer*)sender;
+    CGFloat rotation = [rotate rotation];
+    CGFloat velocity = [rotate velocity];
+    
+    NSLog(@"rotate. rotation: %f, velocity: %f", rotation, velocity);
+}
+
+- (void)handleLongPressGesture:(id)sender {
+    NSLog(@"Long press.");
+}
+
+
+
+
+
 -(IBAction)upbutton{
    
 

@@ -16,5 +16,5 @@
 -(IBAction)easy;
 -(IBAction)nomal;
 -(IBAction)hard;
--(IBAction)back;
+
 @end

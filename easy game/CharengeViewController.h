@@ -9,5 +9,20 @@
 #import <UIKit/UIKit.h>
 
 @interface CharengeViewController : UIViewController
+{
+    IBOutlet UILabel *result;
+    IBOutlet UIImageView *teki;
+    IBOutlet UIImageView *jibunn;
+    IBOutlet UILabel*rennsyousuu;
+    int im;
+    int enemys;
+    int rennsyou;
+    int muzukasisa;
+}
+
+-(IBAction)gos;
+-(IBAction)pas;
+-(IBAction)tyos;
+
 
 @end
