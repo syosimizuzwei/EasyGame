@@ -101,7 +101,6 @@
         default:
             break;
     }
-
 }
 
 - (void)handleRotateGesture:(id)sender {
