@@ -38,8 +38,8 @@
     zenntai++;
     watasi.image = [UIImage imageNamed:@"jyank2.png"];
     mine=1;
-     en=arc4random()% 3;
-       if (en==0) {
+     en=arc4random()% 6;
+       if (en>=0 && en<=3) {
           syousuu++;
         aite.image = [UIImage imageNamed:@"jyank3.png"];
         result.text=[NSString stringWithFormat:@"勝ち"];
@@ -50,11 +50,11 @@
         
         
     }
-    else if (en==1){
+    else if (en>=4 && en<=5){
         aite.image = [UIImage imageNamed:@"jyank1.png"];
     result.text=[NSString stringWithFormat:@"負け"];
            }
-    else if (en==2){
+    else if (en==6){
         aite.image = [UIImage imageNamed:@"jyank2.png"];
 
         result.text=[NSString stringWithFormat:@"アイコ"];
@@ -70,9 +70,9 @@
     watasi.image = [UIImage imageNamed:@"jyank3.png"];
 
     mine=1;
-    en=arc4random()% 3;
+    en=arc4random()% 6;
    
-    if (en==0) {
+    if (en>=0 && en<=3) {
         aite.image = [UIImage imageNamed:@"jyank3.png"];
 
         result.text=[NSString stringWithFormat:@"アイコ"];
@@ -80,7 +80,7 @@
         
         
     }
-    else if (en==1){
+    else if (en>=4 && en<=5){
           syousuu++;
         aite.image = [UIImage imageNamed:@"jyank1.png"];
 
@@ -91,7 +91,7 @@
         
 
     }
-    else if(en==2){
+    else if(en==6){
         aite.image = [UIImage imageNamed:@"jyank2.png"];
 
         result.text=[NSString stringWithFormat:@"負け"];
@@ -105,20 +105,20 @@
     watasi.image=[UIImage imageNamed:@"jyank1.png"];
 
     mine=1;
-    en=arc4random()% 3;
+    en=arc4random()% 6;
    
-    if (en==0) {
+    if (en>=2 && en<=4) {
         aite.image = [UIImage imageNamed:@"jyank3.png"];
 
         result.text=[NSString stringWithFormat:@"負け"];
         
         }
-    else if (en==1){
+    else if (en>=0 && en<=1){
         aite.image = [UIImage imageNamed:@"jyank1.png"];
 
         result.text=[NSString stringWithFormat:@"アイコ"];
           }
-    else if (en==2){
+    else if (en>=5 && en<=6){
           syousuu++;
         aite.image = [UIImage imageNamed:@"jyank2.png"];
 

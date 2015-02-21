@@ -200,7 +200,7 @@ im=1;
         }
         
         if(muzukasisa==3){
-            if(rennsyou==3){
+            if(rennsyou==5){
                 resultViewController *res = [self.storyboard instantiateViewControllerWithIdentifier:@"result"];
                 [self presentViewController:res animated:YES completion:nil];
                 
@@ -225,5 +225,8 @@ im=1;
     // Pass the selected object to the new view controller.
 }
 */
+
+
+
 
 @end

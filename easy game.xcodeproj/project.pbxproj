@@ -14,6 +14,7 @@
 		1A0295131A4A8A4100D4EF00 /* jyank8.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A02950D1A4A8A4100D4EF00 /* jyank8.png */; };
 		1A0295161A4A8C8000D4EF00 /* jyank9.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A0295151A4A8C8000D4EF00 /* jyank9.png */; };
 		1A1F39EE1A4BD8EC00234478 /* center.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1F39ED1A4BD8EC00234478 /* center.png */; };
+		1A285E631A98967D0058C476 /* jyankenn .png in Resources */ = {isa = PBXBuildFile; fileRef = 1A285E621A98967D0058C476 /* jyankenn .png */; };
 		1A39BDB11A4A4F390013B1D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A39BDB01A4A4F390013B1D6 /* main.m */; };
 		1A39BDB41A4A4F390013B1D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A39BDB31A4A4F390013B1D6 /* AppDelegate.m */; };
 		1A39BDB71A4A4F390013B1D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A39BDB61A4A4F390013B1D6 /* ViewController.m */; };
@@ -54,6 +55,7 @@
 		1A02950D1A4A8A4100D4EF00 /* jyank8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jyank8.png; sourceTree = "<group>"; };
 		1A0295151A4A8C8000D4EF00 /* jyank9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jyank9.png; sourceTree = "<group>"; };
 		1A1F39ED1A4BD8EC00234478 /* center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = center.png; sourceTree = "<group>"; };
+		1A285E621A98967D0058C476 /* jyankenn .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jyankenn .png"; sourceTree = "<group>"; };
 		1A39BDAB1A4A4F390013B1D6 /* easy game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "easy game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A39BDAF1A4A4F390013B1D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A39BDB01A4A4F390013B1D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 		1A39BDA21A4A4F390013B1D6 = {
 			isa = PBXGroup;
 			children = (
+				1A285E621A98967D0058C476 /* jyankenn .png */,
 				1A1F39ED1A4BD8EC00234478 /* center.png */,
 				1A4962941A4AAF5C00D1C06A /* migi.png */,
 				1A4962901A4AAF4B00D1C06A /* sita.png */,
@@ -286,6 +289,7 @@
 				1A39BDBF1A4A4F390013B1D6 /* LaunchScreen.xib in Resources */,
 				1A4962921A4AAF4B00D1C06A /* sita.png in Resources */,
 				1A39BDBC1A4A4F390013B1D6 /* Images.xcassets in Resources */,
+				1A285E631A98967D0058C476 /* jyankenn .png in Resources */,
 				1A02950F1A4A8A4100D4EF00 /* jyank1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

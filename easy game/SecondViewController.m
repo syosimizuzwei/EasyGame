@@ -83,24 +83,138 @@
     switch ([[sender valueForKey:@"direction"] intValue]) {
         case 4:
             //上
-            ene=0;
+            my=0;
             break;
         case 2:
-            ene=1;
+            my=3;
             //左
             break;
         case 8:
-            ene=2;
+            my=1;
             //下
             break;
         case 1:
-            ene=3;
+            my=2;
             //右
             break;
             
         default:
             break;
+            
     }
+    ene=arc4random()% 4;
+    if (i == 1) {
+        leftbt.hidden=YES;
+    }
+    else{
+        
+        if (my==0 && ene==0 ) {
+            label.text=[NSString stringWithFormat:@"勝ち"];
+            kao.image = [UIImage imageNamed:@"ue.png"];
+        }
+        
+        else {
+            if (ene==1) {
+                kao.image = [UIImage imageNamed:@"sita.png"];
+            }
+            else if(ene==2){
+                kao.image = [UIImage imageNamed:@"migi.png"];
+
+            }
+            else if(ene==3){
+                kao.image = [UIImage imageNamed:@"hidari.png"];
+
+            }
+        
+            label.text=[NSString stringWithFormat:@"外れ"];
+        }
+        
+        
+        
+        
+        if (my==1 && ene==1 ) {
+            label.text=[NSString stringWithFormat:@"勝ち"];
+            kao.image = [UIImage imageNamed:@"sita.png"];
+        }
+        
+        else {
+            if (ene==0) {
+                kao.image = [UIImage imageNamed:@"ue.png"];
+            }
+            else if(ene==2){
+                kao.image = [UIImage imageNamed:@"migi.png"];
+                
+            }
+            else if(ene==3){
+                kao.image = [UIImage imageNamed:@"hidari.png"];
+                
+            }
+            
+            label.text=[NSString stringWithFormat:@"外れ"];
+        }
+
+        
+        if (my==2 && ene==2 ) {
+            label.text=[NSString stringWithFormat:@"勝ち"];
+            kao.image = [UIImage imageNamed:@"migi.png"];
+        }
+        
+        else {
+            if (ene==0) {
+                kao.image = [UIImage imageNamed:@"ue.png"];
+            }
+            else if(ene==1){
+                kao.image = [UIImage imageNamed:@"sita.png"];
+                
+            }
+            else if(ene==3){
+                kao.image = [UIImage imageNamed:@"hidari.png"];
+                
+            }
+            
+            label.text=[NSString stringWithFormat:@"外れ"];
+        }
+
+        
+        
+        if (my==3 && ene==3 ) {
+            label.text=[NSString stringWithFormat:@"勝ち"];
+            kao.image = [UIImage imageNamed:@"hidari.png"];
+        }
+        
+        else {
+            if (ene==0) {
+                kao.image = [UIImage imageNamed:@"ue.png"];
+            }
+            else if(ene==2){
+                kao.image = [UIImage imageNamed:@"migi.png"];
+                
+            }
+            else if(ene==1){
+                kao.image = [UIImage imageNamed:@"sita.png"];
+                
+            }
+            
+            label.text=[NSString stringWithFormat:@"外れ"];
+        }
+
+        
+        
+        
+        i=1;
+        
+        NSTimer *myTimer =
+        [NSTimer scheduledTimerWithTimeInterval:1.5f //タイマーを発生させる間隔
+                                         target:self//タイマー発生時に呼び出すメソッドがあるターゲット
+                                       selector:@selector(timerCall:) //タイマー発生時に呼び出すメソッド
+                                       userInfo:nil //selectorに渡す情報(NSDictionary)
+                                        repeats:YES //リピート
+         ];
+    }
+
+    
+    
+    
 }
 
 - (void)handleRotateGesture:(id)sender {
