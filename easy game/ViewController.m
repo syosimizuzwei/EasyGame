@@ -100,6 +100,7 @@
 }
 
 
+
 -(IBAction)go{
     zenntai++;
     watasi.image=[UIImage imageNamed:@"jyank1.png"];
