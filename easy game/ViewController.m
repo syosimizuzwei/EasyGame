@@ -22,8 +22,12 @@
     NSURL *url = [NSURL fileURLWithPath:path];
     self.won = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:NULL];
    
-          result.text=[NSString stringWithFormat:@"じゃんけん・・・・"];
+    result.text=[NSString stringWithFormat:@"じゃんけん・・・・"];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)viewWillDisappear:(BOOL)animated{
+    [self.won stop];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -51,8 +55,7 @@
                NSLog(@"鳴ってる");
            }
 
-        SecondViewController *secondViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"second"];
-        [self presentViewController:secondViewController animated:YES completion:nil];
+           [self performSelector:@selector(goNext) withObject:nil afterDelay:2.0];
      
     }
     else if (en>=4 && en<=5){
@@ -94,9 +97,7 @@
             NSLog(@"鳴ってる");
         }
 
-       
-                SecondViewController *secondViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"second"];
-        [self presentViewController:secondViewController animated:YES completion:nil];
+        [self performSelector:@selector(goNext) withObject:nil afterDelay:2.0];
       
     }
     else if(en==6){
@@ -137,9 +138,9 @@
         if (self.won.isPlaying == YES) {
             NSLog(@"鳴ってる");
         }
-                SecondViewController *secondViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"second"];
-        [self presentViewController:secondViewController animated:YES completion:nil];
-           }
+        
+        [self performSelector:@selector(goNext) withObject:nil afterDelay:2.0];
+    }
 }
 
 -(IBAction)idou{
@@ -151,4 +152,14 @@
     [userDefaults synchronize];//即時保存
     [self performSegueWithIdentifier:@"Win" sender:nil];
 }
+
+
+- (void)goNext {
+    SecondViewController *secondViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"second"];
+    [self presentViewController:secondViewController animated:YES completion:nil];
+}
+
+
+
+
 @end

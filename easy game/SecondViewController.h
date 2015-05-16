@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <AVFoundation/AVFoundation.h>
 @interface SecondViewController : UIViewController{
     int my;
     int ene;
@@ -23,5 +23,6 @@
 -(IBAction)downbutton;
 -(IBAction)rightbutton;
 -(IBAction)leftbutton;
+@property AVAudioPlayer *won;
 -(IBAction)swioe;
 @end

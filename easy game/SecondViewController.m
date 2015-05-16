@@ -29,6 +29,10 @@
 -(void)viewWillAppear:(BOOL)animated{
     i=0;
 }
+-(void)viewDidAppear:(BOOL)animated{
+    
+
+}
 /*
 #pragma mark - Navigation
 

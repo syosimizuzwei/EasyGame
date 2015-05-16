@@ -46,6 +46,8 @@
 }
 */
 -(IBAction)back{
+    [self.won stop];
+
     [self.presentingViewController.presentingViewController.presentingViewController dismissViewControllerAnimated:YES completion: NULL];
 }
 
