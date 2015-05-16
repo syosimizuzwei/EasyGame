@@ -37,7 +37,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cfr-FX-nqF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-412.5" y="298.5"/>
+            <point key="canvasLocation" x="-518.5" y="353.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -137,11 +137,12 @@
                         <outlet property="aite" destination="aik-tV-ZHy" id="7e3-U7-NZs"/>
                         <outlet property="result" destination="5Qb-hW-w1p" id="hcm-30-2lY"/>
                         <outlet property="watasi" destination="4eg-m7-id7" id="drF-y0-D9t"/>
+                        <segue destination="FK5-wE-Qv5" kind="presentation" identifier="Win" id="epc-4q-LYd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="95.5" y="298.5"/>
+            <point key="canvasLocation" x="91.5" y="353.5"/>
         </scene>
         <!--Charenge View Controller-->
         <scene sceneID="Lcx-kO-8rD">
@@ -160,9 +161,6 @@
                                 <state key="normal" title="戦績">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="idou" destination="BYZ-38-t0r" eventType="touchUpInside" id="SXY-HH-Dac"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fDJ-Fp-nD2">
                                 <rect key="frame" x="38" y="529" width="45" height="45"/>
@@ -170,7 +168,6 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="go" destination="BYZ-38-t0r" eventType="touchUpInside" id="bXd-1u-7U0"/>
                                     <action selector="gos" destination="PQF-u8-UIh" eventType="touchUpInside" id="40M-BL-mUy"/>
                                 </connections>
                             </button>
@@ -180,7 +177,6 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="pa" destination="BYZ-38-t0r" eventType="touchUpInside" id="HAS-1o-EpJ"/>
                                     <action selector="pas" destination="PQF-u8-UIh" eventType="touchUpInside" id="DN7-FM-byF"/>
                                 </connections>
                             </button>
@@ -196,7 +192,6 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="tyo" destination="BYZ-38-t0r" eventType="touchUpInside" id="mh1-3M-77I"/>
                                     <action selector="tyos" destination="PQF-u8-UIh" eventType="touchUpInside" id="e5b-8b-24Z"/>
                                 </connections>
                             </button>
@@ -247,7 +242,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Smx-aY-tcZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="451.5" y="1264.5"/>
+            <point key="canvasLocation" x="1105.5" y="-471.5"/>
         </scene>
         <!--Nannidosenntaku View Controller-->
         <scene sceneID="Wt9-MI-0Bf">
@@ -299,9 +294,6 @@
                                 <state key="normal" title="もどる">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="modal" id="HXP-Bb-BMc"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.53205855290000004" green="1" blue="0.49783568960000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -310,7 +302,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VKo-5E-W47" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="508.5" y="298.5"/>
+            <point key="canvasLocation" x="616.5" y="-471.5"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="GrW-wX-UGe">
@@ -399,7 +391,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hSU-q7-M6M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1015.5" y="291.5"/>
+            <point key="canvasLocation" x="616.5" y="353.5"/>
         </scene>
         <!--Result View Controller-->
         <scene sceneID="CXO-LD-WwG">
@@ -418,9 +410,6 @@
                                 <state key="normal" title="もどる">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="modal" id="nXv-mx-OWe"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="クリアー" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7vN-ch-aEI">
                                 <rect key="frame" x="65" y="182" width="245" height="68"/>
@@ -435,7 +424,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cf0-zg-oZM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-211.5" y="1321.5"/>
+            <point key="canvasLocation" x="1610.5" y="-471.5"/>
         </scene>
         <!--Win View Controller-->
         <scene sceneID="ZMu-jB-6j6">
@@ -472,9 +461,6 @@
                                 <state key="normal" title="戻る">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="modal" id="qz6-R4-yEw"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="あなたの勝率は" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eMn-ut-g3s">
                                 <rect key="frame" x="87" y="36" width="200" height="120"/>
@@ -493,7 +479,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jen-rr-rJg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="941.5" y="1121.5"/>
+            <point key="canvasLocation" x="91.5" y="-471.5"/>
         </scene>
     </scenes>
     <resources>
@@ -507,7 +493,4 @@
         <image name="right.png" width="160" height="160"/>
         <image name="up.png" width="160" height="160"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="qz6-R4-yEw"/>
-    </inferredMetricsTieBreakers>
 </document>

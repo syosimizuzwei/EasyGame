@@ -20,12 +20,14 @@
 }
 -(void)viewWillAppear:(BOOL)animated{
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
-   int total = [userDefaults integerForKey:@"age"];
-    labela.text=[NSString stringWithFormat:@"%d％",total];
-    int winner = [userDefaults integerForKey:@"kati"];
+    total = (int)[userDefaults integerForKey:@"age"];
+    labela.text= [NSString stringWithFormat:@"%ld％",total];
+    int winner = (int)[userDefaults integerForKey:@"kati"];
     labelb.text=[NSString stringWithFormat:@"%d回",winner];
     
-    }
+    NSLog(@"total == %ld", (long)total);
+    NSLog(@"winner == %d", winner);
+}
 
 
 - (void)didReceiveMemoryWarning {
@@ -34,13 +36,13 @@
 }
 
 /*
-#pragma mark - Navigation
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
-@end
+@end;

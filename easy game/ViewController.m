@@ -123,14 +123,16 @@
         [self presentViewController:secondViewController animated:YES completion:nil];
            }
 }
+
 -(IBAction)idou{
     syouritu= syousuu/zenntai*100;
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
     NSLog(@"%f",syouritu);
     [userDefaults setInteger:syouritu forKey:@"age"];
     [userDefaults setInteger:syousuu forKey:@"kati"];
-    WinViewController *winViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"win"];
-    [self presentViewController:winViewController animated:YES completion:nil];
+    [userDefaults synchronize];//即時保存
+    
+    [self performSegueWithIdentifier:@"Win" sender:nil];
 
 }
 @end
