@@ -15,7 +15,7 @@
     IBOutlet UIImageView *watasi;
     int mine;
     int en;
-        float zenntai;
+    float zenntai;
     float syousuu;
     float syouritu;
    }

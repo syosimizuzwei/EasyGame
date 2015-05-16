@@ -18,8 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
      mine=0;
-    
-          result.text=[NSString stringWithFormat:@""];
+   
+          result.text=[NSString stringWithFormat:@"じゃんけん・・・・"];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -45,10 +45,7 @@
         result.text=[NSString stringWithFormat:@"勝ち"];
         SecondViewController *secondViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"second"];
         [self presentViewController:secondViewController animated:YES completion:nil];
-      
-
-        
-        
+     
     }
     else if (en>=4 && en<=5){
         aite.image = [UIImage imageNamed:@"jyank1.png"];
@@ -58,9 +55,7 @@
         aite.image = [UIImage imageNamed:@"jyank2.png"];
 
         result.text=[NSString stringWithFormat:@"アイコ"];
-        
-        
-
+     
     }
 }
 

@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    label.text=[NSString stringWithFormat:@""];
+    label.text=[NSString stringWithFormat:@"あっちむいて"];
     // Do any additional setup after loading the view.
     
     [self createGestureRecognizers];
