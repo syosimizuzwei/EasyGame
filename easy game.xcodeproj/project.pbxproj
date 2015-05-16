@@ -38,6 +38,7 @@
 		1ACCEFDB1A61222400DDC874 /* resultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACCEFDA1A61222400DDC874 /* resultViewController.m */; };
 		1AE5C87C1B07380500CD2891 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE5C87B1B07380500CD2891 /* AVFoundation.framework */; };
 		1AE5C87E1B07381800CD2891 /* kannsei.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1AE5C87D1B07381800CD2891 /* kannsei.mp3 */; };
+		1AE5C8801B0762CE00CD2891 /* 3.5Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AE5C87F1B0762CE00CD2891 /* 3.5Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,7 @@
 		1ACCEFDA1A61222400DDC874 /* resultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = resultViewController.m; sourceTree = "<group>"; };
 		1AE5C87B1B07380500CD2891 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		1AE5C87D1B07381800CD2891 /* kannsei.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kannsei.mp3; sourceTree = "<group>"; };
+		1AE5C87F1B0762CE00CD2891 /* 3.5Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = 3.5Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				1A39BDB51A4A4F390013B1D6 /* ViewController.h */,
 				1A39BDB61A4A4F390013B1D6 /* ViewController.m */,
 				1A39BDB81A4A4F390013B1D6 /* Main.storyboard */,
+				1AE5C87F1B0762CE00CD2891 /* 3.5Storyboard.storyboard */,
 				1ACCEFD91A61222400DDC874 /* resultViewController.h */,
 				1ACCEFDA1A61222400DDC874 /* resultViewController.m */,
 				1ACCEFD61A61124200DDC874 /* CharengeViewController.h */,
@@ -295,6 +298,7 @@
 				1A0295161A4A8C8000D4EF00 /* jyank9.png in Resources */,
 				1A39BDBA1A4A4F390013B1D6 /* Main.storyboard in Resources */,
 				1A4962931A4AAF4B00D1C06A /* ue.png in Resources */,
+				1AE5C8801B0762CE00CD2891 /* 3.5Storyboard.storyboard in Resources */,
 				1A4962951A4AAF5C00D1C06A /* migi.png in Resources */,
 				1A49628D1A4A9FEE00D1C06A /* right.png in Resources */,
 				1A39BDBF1A4A4F390013B1D6 /* LaunchScreen.xib in Resources */,

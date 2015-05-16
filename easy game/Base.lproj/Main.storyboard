@@ -136,7 +136,10 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="aite" destination="aik-tV-ZHy" id="7e3-U7-NZs"/>
+                        <outlet property="guu" destination="wVt-Wy-DCJ" id="DhX-l5-U2S"/>
+                        <outlet property="paa" destination="mDF-i9-Xlj" id="kw1-Cw-xdX"/>
                         <outlet property="result" destination="5Qb-hW-w1p" id="hcm-30-2lY"/>
+                        <outlet property="tyoki" destination="bBh-V1-qb2" id="kKW-tY-f6I"/>
                         <outlet property="watasi" destination="4eg-m7-id7" id="drF-y0-D9t"/>
                         <segue destination="FK5-wE-Qv5" kind="presentation" identifier="Win" id="epc-4q-LYd"/>
                     </connections>

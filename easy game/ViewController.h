@@ -10,15 +10,18 @@
 #import <AVFoundation/AVFoundation.h>
 @interface ViewController : UIViewController
 {
-       IBOutlet UILabel *result;
+    IBOutlet UILabel *result;
     IBOutlet UIImageView *aite;
     IBOutlet UIImageView *watasi;
+    IBOutlet UIButton*guu;
+    IBOutlet UIButton*paa;
+    IBOutlet UIButton*tyoki;
     int mine;
     int en;
     float zenntai;
     float syousuu;
     float syouritu;
-      }
+}
 
 -(IBAction)go;
 -(IBAction)pa;

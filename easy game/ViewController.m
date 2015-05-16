@@ -54,8 +54,8 @@
            if (self.won.isPlaying == YES) {
                NSLog(@"鳴ってる");
            }
-
-           [self performSelector:@selector(goNext) withObject:nil afterDelay:2.0];
+           [self slept];//メソッド呼び出し
+           [self performSelector:@selector(goNext) withObject:nil afterDelay:1.0];//メソッドの遅延実行
      
     }
     else if (en>=4 && en<=5){
@@ -96,8 +96,9 @@
         if (self.won.isPlaying == YES) {
             NSLog(@"鳴ってる");
         }
+        [self slept];//メソッド呼び出し
+        [self performSelector:@selector(goNext) withObject:nil afterDelay:1.0];//メソッドの遅延実行
 
-        [self performSelector:@selector(goNext) withObject:nil afterDelay:2.0];
       
     }
     else if(en==6){
@@ -138,8 +139,8 @@
         if (self.won.isPlaying == YES) {
             NSLog(@"鳴ってる");
         }
-        
-        [self performSelector:@selector(goNext) withObject:nil afterDelay:2.0];
+        [self slept];//メソッド呼び出し
+        [self performSelector:@selector(goNext) withObject:nil afterDelay:1.0];//メソッドの遅延実行
     }
 }
 
@@ -152,7 +153,11 @@
     [userDefaults synchronize];//即時保存
     [self performSegueWithIdentifier:@"Win" sender:nil];
 }
-
+-(void)slept{
+    guu.hidden=YES;
+    tyoki.hidden=YES;
+    paa.hidden=YES;
+}//メソッド
 
 - (void)goNext {
     SecondViewController *secondViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"second"];
