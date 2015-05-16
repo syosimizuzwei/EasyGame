@@ -33,5 +33,7 @@
     // Pass the selected object to the new view controller.
 }
 */
-
+-(IBAction)back{
+    [self.presentingViewController.presentingViewController.presentingViewController dismissViewControllerAnimated:YES completion: NULL];
+}
 @end

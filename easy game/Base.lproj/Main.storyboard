@@ -413,6 +413,9 @@
                                 <state key="normal" title="もどる">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="back" destination="EXA-8o-vJi" eventType="touchUpInside" id="R8I-LD-fwg"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="クリアー" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7vN-ch-aEI">
                                 <rect key="frame" x="65" y="182" width="245" height="68"/>
@@ -427,7 +430,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cf0-zg-oZM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1610.5" y="-471.5"/>
+            <point key="canvasLocation" x="1611.5" y="-570.5"/>
         </scene>
         <!--Win View Controller-->
         <scene sceneID="ZMu-jB-6j6">
