@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <AVFoundation/AVFoundation.h>
 @interface ViewController : UIViewController
 {
        IBOutlet UILabel *result;
@@ -18,11 +18,15 @@
     float zenntai;
     float syousuu;
     float syouritu;
-   }
+      }
 
 -(IBAction)go;
 -(IBAction)pa;
 -(IBAction)tyo;
 -(IBAction)idou;
+@property AVAudioPlayer *won;
+
+
+
 @end
 

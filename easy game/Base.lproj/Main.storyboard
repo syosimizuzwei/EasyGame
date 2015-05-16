@@ -99,15 +99,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jyank7.png" translatesAutoresizingMaskIntoConstraints="NO" id="W51-w7-TiD">
                                 <rect key="frame" x="30" y="522" width="60" height="60"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uNs-jD-4yg">
-                                <rect key="frame" x="255" y="69" width="120" height="30"/>
-                                <state key="normal" title="チャレンジモード">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="uwt-s4-tLK" kind="modal" id="QBT-bs-EjV"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="相手" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wv2-cz-mlU">
                                 <rect key="frame" x="119" y="8" width="132" height="60"/>
                                 <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="27"/>
@@ -127,6 +118,16 @@
                                 </state>
                                 <connections>
                                     <action selector="idou" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sq7-ZW-3GY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uNs-jD-4yg">
+                                <rect key="frame" x="240" y="69" width="150" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                <state key="normal" title="連勝チャレンジモード">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="uwt-s4-tLK" kind="modal" id="QBT-bs-EjV"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -467,6 +468,9 @@
                                 <state key="normal" title="戻る">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="back" destination="FK5-wE-Qv5" eventType="touchUpInside" id="eMi-cF-Uqm"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="あなたの勝率は" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eMn-ut-g3s">
                                 <rect key="frame" x="87" y="36" width="200" height="120"/>

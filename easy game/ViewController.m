@@ -18,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
      mine=0;
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"kannsei" ofType:@"mp3"];
+    NSURL *url = [NSURL fileURLWithPath:path];
+    self.won = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:NULL];
    
           result.text=[NSString stringWithFormat:@"じゃんけん・・・・"];
     // Do any additional setup after loading the view, typically from a nib.
@@ -43,6 +46,11 @@
           syousuu++;
         aite.image = [UIImage imageNamed:@"jyank3.png"];
         result.text=[NSString stringWithFormat:@"勝ち"];
+           [self.won play];
+           if (self.won.isPlaying == YES) {
+               NSLog(@"鳴ってる");
+           }
+
         SecondViewController *secondViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"second"];
         [self presentViewController:secondViewController animated:YES completion:nil];
      
@@ -57,6 +65,7 @@
         result.text=[NSString stringWithFormat:@"アイコ"];
      
     }
+    
 }
 
 
@@ -80,11 +89,15 @@
         aite.image = [UIImage imageNamed:@"jyank1.png"];
 
         result.text=[NSString stringWithFormat:@"勝ち"];
+        [self.won play];
+        if (self.won.isPlaying == YES) {
+            NSLog(@"鳴ってる");
+        }
+
+       
                 SecondViewController *secondViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"second"];
         [self presentViewController:secondViewController animated:YES completion:nil];
-        
-        
-
+      
     }
     else if(en==6){
         aite.image = [UIImage imageNamed:@"jyank2.png"];
@@ -92,6 +105,7 @@
         result.text=[NSString stringWithFormat:@"負け"];
     
     }
+    
 }
 
 
@@ -119,7 +133,11 @@
         aite.image = [UIImage imageNamed:@"jyank2.png"];
 
         result.text=[NSString stringWithFormat:@"勝ち"];
-        SecondViewController *secondViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"second"];
+        [self.won play];
+        if (self.won.isPlaying == YES) {
+            NSLog(@"鳴ってる");
+        }
+                SecondViewController *secondViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"second"];
         [self presentViewController:secondViewController animated:YES completion:nil];
            }
 }
@@ -131,8 +149,6 @@
     [userDefaults setInteger:syouritu forKey:@"age"];
     [userDefaults setInteger:syousuu forKey:@"kati"];
     [userDefaults synchronize];//即時保存
-    
     [self performSegueWithIdentifier:@"Win" sender:nil];
-
 }
 @end

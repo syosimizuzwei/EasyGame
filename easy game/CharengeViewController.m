@@ -42,18 +42,14 @@ im=1;
             if(rennsyou==3){
                 resultViewController *res = [self.storyboard instantiateViewControllerWithIdentifier:@"result"];
                 [self presentViewController:res animated:YES completion:nil];
-                
-                
-                
+               
             }
         }
         if(muzukasisa==2){
             if(rennsyou==3){
                 resultViewController *res = [self.storyboard instantiateViewControllerWithIdentifier:@"result"];
                 [self presentViewController:res animated:YES completion:nil];
-                
-                
-                
+               
             }
         }
         
@@ -61,16 +57,12 @@ im=1;
             if(rennsyou==3){
                 resultViewController *res = [self.storyboard instantiateViewControllerWithIdentifier:@"result"];
                 [self presentViewController:res animated:YES completion:nil];
-                
-                
-                
+             
             }
         }
 //        SecondViewController *secondViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"second"];
 //        [self presentViewController:secondViewController animated:YES completion:nil];
 //        
-        
-        
         
     }
     else if (enemys==1){
@@ -83,9 +75,7 @@ im=1;
         teki.image = [UIImage imageNamed:@"jyank2.png"];
         
         result.text=[NSString stringWithFormat:@"アイコ"];
-        
-        
-        
+      
     }
     rennsyousuu.text=[NSString stringWithFormat:@"%d連勝",rennsyou];
 }
@@ -116,19 +106,13 @@ im=1;
             if(rennsyou==3){
                 resultViewController *res = [self.storyboard instantiateViewControllerWithIdentifier:@"result"];
                 [self presentViewController:res animated:YES completion:nil];
-                
-                
-            
-            }
+                }
         }
         if(muzukasisa==2){
             if(rennsyou==3){
                 resultViewController *res = [self.storyboard instantiateViewControllerWithIdentifier:@"result"];
                 [self presentViewController:res animated:YES completion:nil];
-                
-                
-                
-            }
+                            }
         }
 
         if(muzukasisa==3){
@@ -186,16 +170,13 @@ im=1;
                 resultViewController *res = [self.storyboard instantiateViewControllerWithIdentifier:@"result"];
                 [self presentViewController:res animated:YES completion:nil];
                 
-            
             }
         }
         if(muzukasisa==2){
             if(rennsyou==3){
                 resultViewController *res = [self.storyboard instantiateViewControllerWithIdentifier:@"result"];
                 [self presentViewController:res animated:YES completion:nil];
-                
-                
-                
+         
             }
         }
         
@@ -203,8 +184,6 @@ im=1;
             if(rennsyou==5){
                 resultViewController *res = [self.storyboard instantiateViewControllerWithIdentifier:@"result"];
                 [self presentViewController:res animated:YES completion:nil];
-                
-                
                 
             }
         }

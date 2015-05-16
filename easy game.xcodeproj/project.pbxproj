@@ -36,6 +36,8 @@
 		1ACCEFD51A6111AA00DDC874 /* NannidosenntakuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACCEFD41A6111AA00DDC874 /* NannidosenntakuViewController.m */; };
 		1ACCEFD81A61124200DDC874 /* CharengeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACCEFD71A61124200DDC874 /* CharengeViewController.m */; };
 		1ACCEFDB1A61222400DDC874 /* resultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACCEFDA1A61222400DDC874 /* resultViewController.m */; };
+		1AE5C87C1B07380500CD2891 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE5C87B1B07380500CD2891 /* AVFoundation.framework */; };
+		1AE5C87E1B07381800CD2891 /* kannsei.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1AE5C87D1B07381800CD2891 /* kannsei.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +91,8 @@
 		1ACCEFD71A61124200DDC874 /* CharengeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharengeViewController.m; sourceTree = "<group>"; };
 		1ACCEFD91A61222400DDC874 /* resultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resultViewController.h; sourceTree = "<group>"; };
 		1ACCEFDA1A61222400DDC874 /* resultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = resultViewController.m; sourceTree = "<group>"; };
+		1AE5C87B1B07380500CD2891 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1AE5C87D1B07381800CD2891 /* kannsei.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kannsei.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AE5C87C1B07380500CD2891 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,8 +117,10 @@
 		1A39BDA21A4A4F390013B1D6 = {
 			isa = PBXGroup;
 			children = (
+				1AE5C87B1B07380500CD2891 /* AVFoundation.framework */,
 				1A285E621A98967D0058C476 /* jyankenn .png */,
 				1A1F39ED1A4BD8EC00234478 /* center.png */,
+				1AE5C87D1B07381800CD2891 /* kannsei.mp3 */,
 				1A4962941A4AAF5C00D1C06A /* migi.png */,
 				1A4962901A4AAF4B00D1C06A /* sita.png */,
 				1A4962911A4AAF4B00D1C06A /* ue.png */,
@@ -292,6 +299,7 @@
 				1A49628D1A4A9FEE00D1C06A /* right.png in Resources */,
 				1A39BDBF1A4A4F390013B1D6 /* LaunchScreen.xib in Resources */,
 				1A4962921A4AAF4B00D1C06A /* sita.png in Resources */,
+				1AE5C87E1B07381800CD2891 /* kannsei.mp3 in Resources */,
 				1AC514961AB5D94100735438 /* icon.png in Resources */,
 				1A39BDBC1A4A4F390013B1D6 /* Images.xcassets in Resources */,
 				1A285E631A98967D0058C476 /* jyankenn .png in Resources */,
