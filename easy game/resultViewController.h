@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface resultViewController : UIViewController
+@interface resultViewController : UIViewController{
+    int count;
+}
+@property AVAudioPlayer *won;
 
 @end

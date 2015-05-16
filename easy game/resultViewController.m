@@ -16,12 +16,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"kannsei" ofType:@"mp3"];
+    NSURL *url = [NSURL fileURLWithPath:path];
+    self.won = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:NULL];
+
     // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+-(void)viewDidAppear:(BOOL)animated{
+    [self.won play];
+    if (self.won.isPlaying == YES) {
+        NSLog(@"鳴ってる");
+    }
+
 }
 
 /*
@@ -36,4 +48,5 @@
 -(IBAction)back{
     [self.presentingViewController.presentingViewController.presentingViewController dismissViewControllerAnimated:YES completion: NULL];
 }
+
 @end
