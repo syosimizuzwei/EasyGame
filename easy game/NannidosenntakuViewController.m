@@ -62,5 +62,7 @@
     CharengeViewController *charenge = [self.storyboard instantiateViewControllerWithIdentifier:@"charenge"];
     [self presentViewController:charenge animated:YES completion:nil];
 }
-
+-(IBAction)back{
+    [self dismissViewControllerAnimated:YES completion: NULL];
+}
 @end
