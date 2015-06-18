@@ -14,24 +14,49 @@
 
 @implementation AppDelegate
 
+@synthesize sbName;
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
     
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main.Storyboard" bundle:nil];
+    // StoryBoardの型宣言
+    UIStoryboard *storyboard;
+    // StoryBoardの名称設定用
+    NSString *
+    storyBoardName;
     
-    bool isFirst = NO;
-    UIViewController *viewController;
-    if(isFirst){
-        viewController = [storyboard instantiateViewControllerWithIdentifier:@"3.5Storyboard.storyboard"];
-    }else{
-        viewController = [storyboard instantiateViewControllerWithIdentifier:@"Main.storyboard"];
+    // 機種の取得
+    NSString *modelname = [[UIDevice currentDevice] model];
+    
+    // iPadかどうか判断する
+    if ( ![modelname hasPrefix:@"iPad"] ) {
+        
+        // Windowスクリーンのサイズを取得
+        CGRect r = [[UIScreen mainScreen] bounds];
+        // 縦の長さが480の場合、古いiPhoneだと判定
+        if(r.size.height == 480) {
+            storyBoardName = @"3.5Storyboard";
+        }else {
+            storyBoardName = @"Main";
+        }
+    }else {
+        storyBoardName = @"3.5Storyboard";
     }
     
-    self.window.rootViewController = viewController;
+    sbName = storyBoardName;
+    
+    // StoryBoardのインスタンス化
+    storyboard = [UIStoryboard storyboardWithName:storyBoardName bundle:nil];
+    
+    // 画面の生成
+    UIViewController *mainViewController = [storyboard instantiateInitialViewController];
+    
+    // ルートウィンドウにひっつける
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = mainViewController;
     [self.window makeKeyAndVisible];
-
-    // Override point for customization after application launch.
+    
     return YES;
 }
 
