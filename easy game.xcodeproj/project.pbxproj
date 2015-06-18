@@ -32,11 +32,6 @@
 		1A4962921A4AAF4B00D1C06A /* sita.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4962901A4AAF4B00D1C06A /* sita.png */; };
 		1A4962931A4AAF4B00D1C06A /* ue.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4962911A4AAF4B00D1C06A /* ue.png */; };
 		1A4962951A4AAF5C00D1C06A /* migi.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4962941A4AAF5C00D1C06A /* migi.png */; };
-		1A7969B31B32D67A00D5DCCD /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7969B21B32D67A00D5DCCD /* libGoogleAnalyticsServices.a */; };
-		1A7969B51B32D6D300D5DCCD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7969B41B32D6D300D5DCCD /* CoreData.framework */; };
-		1A7969B71B32D6EA00D5DCCD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7969B61B32D6EA00D5DCCD /* SystemConfiguration.framework */; };
-		1A7969B91B32D71000D5DCCD /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7969B81B32D71000D5DCCD /* libz.dylib */; };
-		1A7969BB1B32D75600D5DCCD /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7969BA1B32D75600D5DCCD /* libGoogleAnalyticsServices.a */; };
 		1A7969BE1B32D8F500D5DCCD /* TrakingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7969BD1B32D8F500D5DCCD /* TrakingManager.m */; };
 		1A954BEB1A4B9564000AAAD2 /* WinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A954BEA1A4B9564000AAAD2 /* WinViewController.m */; };
 		1AA08A151B198787004A07FF /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 1AA08A001B198787004A07FF /* Contents.json */; };
@@ -66,6 +61,7 @@
 		1AE5C87C1B07380500CD2891 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE5C87B1B07380500CD2891 /* AVFoundation.framework */; };
 		1AE5C87E1B07381800CD2891 /* kannsei.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1AE5C87D1B07381800CD2891 /* kannsei.mp3 */; };
 		1AE5C8801B0762CE00CD2891 /* 3.5Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AE5C87F1B0762CE00CD2891 /* 3.5Storyboard.storyboard */; };
+		2EF8D6D5A5E63BC64BBB4CDD /* libPods-easy game.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 657CADA10ABEB5B3A5EFA0C2 /* libPods-easy game.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,21 +107,6 @@
 		1A4962901A4AAF4B00D1C06A /* sita.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sita.png; sourceTree = "<group>"; };
 		1A4962911A4AAF4B00D1C06A /* ue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ue.png; sourceTree = "<group>"; };
 		1A4962941A4AAF5C00D1C06A /* migi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = migi.png; sourceTree = "<group>"; };
-		1A7969A81B32D67A00D5DCCD /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
-		1A7969A91B32D67A00D5DCCD /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
-		1A7969AA1B32D67A00D5DCCD /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
-		1A7969AB1B32D67A00D5DCCD /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
-		1A7969AC1B32D67A00D5DCCD /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
-		1A7969AD1B32D67A00D5DCCD /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
-		1A7969AE1B32D67A00D5DCCD /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
-		1A7969AF1B32D67A00D5DCCD /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
-		1A7969B01B32D67A00D5DCCD /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
-		1A7969B11B32D67A00D5DCCD /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
-		1A7969B21B32D67A00D5DCCD /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
-		1A7969B41B32D6D300D5DCCD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		1A7969B61B32D6EA00D5DCCD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		1A7969B81B32D71000D5DCCD /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		1A7969BA1B32D75600D5DCCD /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = ../../../GoogleAnalyticsLibrary/libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
 		1A7969BC1B32D8F500D5DCCD /* TrakingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrakingManager.h; sourceTree = "<group>"; };
 		1A7969BD1B32D8F500D5DCCD /* TrakingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrakingManager.m; sourceTree = "<group>"; };
 		1A954BE91A4B9564000AAAD2 /* WinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinViewController.h; sourceTree = "<group>"; };
@@ -160,6 +141,9 @@
 		1AE5C87B1B07380500CD2891 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		1AE5C87D1B07381800CD2891 /* kannsei.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kannsei.mp3; sourceTree = "<group>"; };
 		1AE5C87F1B0762CE00CD2891 /* 3.5Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = 3.5Storyboard.storyboard; sourceTree = "<group>"; };
+		657CADA10ABEB5B3A5EFA0C2 /* libPods-easy game.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-easy game.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0667068D44C9355A5183498 /* Pods-easy game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-easy game.debug.xcconfig"; path = "Pods/Target Support Files/Pods-easy game/Pods-easy game.debug.xcconfig"; sourceTree = "<group>"; };
+		C414DD276CA49424823FBABD /* Pods-easy game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-easy game.release.xcconfig"; path = "Pods/Target Support Files/Pods-easy game/Pods-easy game.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,12 +151,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A7969BB1B32D75600D5DCCD /* libGoogleAnalyticsServices.a in Frameworks */,
-				1A7969B91B32D71000D5DCCD /* libz.dylib in Frameworks */,
-				1A7969B71B32D6EA00D5DCCD /* SystemConfiguration.framework in Frameworks */,
-				1A7969B51B32D6D300D5DCCD /* CoreData.framework in Frameworks */,
 				1AE5C87C1B07380500CD2891 /* AVFoundation.framework in Frameworks */,
-				1A7969B31B32D67A00D5DCCD /* libGoogleAnalyticsServices.a in Frameworks */,
+				2EF8D6D5A5E63BC64BBB4CDD /* libPods-easy game.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,10 +169,6 @@
 		1A39BDA21A4A4F390013B1D6 = {
 			isa = PBXGroup;
 			children = (
-				1A7969BA1B32D75600D5DCCD /* libGoogleAnalyticsServices.a */,
-				1A7969B81B32D71000D5DCCD /* libz.dylib */,
-				1A7969B61B32D6EA00D5DCCD /* SystemConfiguration.framework */,
-				1A7969B41B32D6D300D5DCCD /* CoreData.framework */,
 				1AE5C87B1B07380500CD2891 /* AVFoundation.framework */,
 				1A285E621A98967D0058C476 /* jyankenn .png */,
 				1A1F39ED1A4BD8EC00234478 /* center.png */,
@@ -205,6 +181,8 @@
 				1A39BDAD1A4A4F390013B1D6 /* easy game */,
 				1A39BDC71A4A4F390013B1D6 /* easy gameTests */,
 				1A39BDAC1A4A4F390013B1D6 /* Products */,
+				2C2D9E0B73A40B8F12FDD58E /* Pods */,
+				2C5FC695805E9FCB308CAB91 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -251,7 +229,6 @@
 				1A39BDD51A4A59BA0013B1D6 /* SecondViewController.m */,
 				1A39BDBB1A4A4F390013B1D6 /* Images.xcassets */,
 				1A39BDBD1A4A4F390013B1D6 /* LaunchScreen.xib */,
-				1A7969A71B32D67A00D5DCCD /* GoogleAnalyticsLibrary */,
 				1A39BDAE1A4A4F390013B1D6 /* Supporting Files */,
 			);
 			path = "easy game";
@@ -281,24 +258,6 @@
 				1A39BDC91A4A4F390013B1D6 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		1A7969A71B32D67A00D5DCCD /* GoogleAnalyticsLibrary */ = {
-			isa = PBXGroup;
-			children = (
-				1A7969A81B32D67A00D5DCCD /* GAI.h */,
-				1A7969A91B32D67A00D5DCCD /* GAIDictionaryBuilder.h */,
-				1A7969AA1B32D67A00D5DCCD /* GAIEcommerceFields.h */,
-				1A7969AB1B32D67A00D5DCCD /* GAIEcommerceProduct.h */,
-				1A7969AC1B32D67A00D5DCCD /* GAIEcommerceProductAction.h */,
-				1A7969AD1B32D67A00D5DCCD /* GAIEcommercePromotion.h */,
-				1A7969AE1B32D67A00D5DCCD /* GAIFields.h */,
-				1A7969AF1B32D67A00D5DCCD /* GAILogger.h */,
-				1A7969B01B32D67A00D5DCCD /* GAITrackedViewController.h */,
-				1A7969B11B32D67A00D5DCCD /* GAITracker.h */,
-				1A7969B21B32D67A00D5DCCD /* libGoogleAnalyticsServices.a */,
-			);
-			path = GoogleAnalyticsLibrary;
 			sourceTree = "<group>";
 		};
 		1AA089FE1B198787004A07FF /* icons */ = {
@@ -337,6 +296,23 @@
 			path = AppIcon.appiconset;
 			sourceTree = "<group>";
 		};
+		2C2D9E0B73A40B8F12FDD58E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0667068D44C9355A5183498 /* Pods-easy game.debug.xcconfig */,
+				C414DD276CA49424823FBABD /* Pods-easy game.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2C5FC695805E9FCB308CAB91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				657CADA10ABEB5B3A5EFA0C2 /* libPods-easy game.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -344,9 +320,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A39BDCE1A4A4F390013B1D6 /* Build configuration list for PBXNativeTarget "easy game" */;
 			buildPhases = (
+				AF5758220B5E18DE75A0FE01 /* Check Pods Manifest.lock */,
 				1A39BDA71A4A4F390013B1D6 /* Sources */,
 				1A39BDA81A4A4F390013B1D6 /* Frameworks */,
 				1A39BDA91A4A4F390013B1D6 /* Resources */,
+				0C5A3899E46BD80373E7B05E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -471,6 +449,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C5A3899E46BD80373E7B05E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-easy game/Pods-easy game-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF5758220B5E18DE75A0FE01 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1A39BDA71A4A4F390013B1D6 /* Sources */ = {
@@ -613,6 +624,7 @@
 		};
 		1A39BDCF1A4A4F390013B1D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0667068D44C9355A5183498 /* Pods-easy game.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: kunio shimizu";
@@ -633,6 +645,7 @@
 		};
 		1A39BDD01A4A4F390013B1D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C414DD276CA49424823FBABD /* Pods-easy game.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: kunio shimizu";

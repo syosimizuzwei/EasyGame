@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "SecondViewController.h"
 #import "WinViewController.h"
+#import "TrakingManager.h"
+
 @interface ViewController ()
 
 @end
@@ -26,6 +28,9 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    [TrackingManager sendScreenTracking:@"メイン画面"];
+}
 
 
 - (void)viewWillDisappear:(BOOL)animated{
@@ -47,6 +52,7 @@
 //en=1グー
 //en=0パー
 -(IBAction)tyo{
+    [TrackingManager sendEventTracking:@"チョキ" action:@"チョキ" label:@"チョキ" value:0 screen:@"メイン画面"];
     zenntai++;
     watasi.image = [UIImage imageNamed:@"jyank2.png"];
     mine=1;
@@ -78,6 +84,8 @@
 
 
 -(IBAction)pa{
+    [TrackingManager sendEventTracking:@"パー" action:@"パー" label:@"パー" value:0 screen:@"メイン画面"];
+
     zenntai++;
     watasi.image = [UIImage imageNamed:@"jyank3.png"];
 
@@ -117,7 +125,8 @@
 
 
 
--(IBAction)go{
+-(IBAction)go{[TrackingManager sendEventTracking:@"グー" action:@"グー" label:@"グー" value:0 screen:@"メイン画面"];
+
     zenntai++;
     watasi.image=[UIImage imageNamed:@"jyank1.png"];
 

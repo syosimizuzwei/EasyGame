@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C52C7B7ADF9D082BEBDD5B17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB048E2F5FC86E505C39D64 /* Foundation.framework */; };
+		FB5C02719D1C4A93B7979761 /* Pods-easy game-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C8C04025966619E8059D00 /* Pods-easy game-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0712AC22C9B4EBF198FF9AE1 /* GAIFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIFields.h; path = GoogleAnalytics/Library/GAIFields.h; sourceTree = "<group>"; };
+		1EC5B2544B6383D5FEE72449 /* GAITrackedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAITrackedViewController.h; path = GoogleAnalytics/Library/GAITrackedViewController.h; sourceTree = "<group>"; };
+		31319C673AFEF9618E2B09BD /* Pods-easy game-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-easy game-acknowledgements.plist"; sourceTree = "<group>"; };
+		3AB1CF13FA262A6B079EFC04 /* Pods-easy game-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-easy game-environment.h"; sourceTree = "<group>"; };
+		44FB684434537773CE04B3FE /* GAITracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAITracker.h; path = GoogleAnalytics/Library/GAITracker.h; sourceTree = "<group>"; };
+		4F0D8139F82612438B263DF2 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		52C98E3107B3152706445159 /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommercePromotion.h; path = GoogleAnalytics/Library/GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		5A40DFF82CA2C859C2FE87CA /* Pods-easy game-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-easy game-resources.sh"; sourceTree = "<group>"; };
+		64C8C04025966619E8059D00 /* Pods-easy game-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-easy game-dummy.m"; sourceTree = "<group>"; };
+		6D7F99A4A17EAA0A4DF928B7 /* TAGLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAGLogger.h; path = GoogleTagManager/Library/TAGLogger.h; sourceTree = "<group>"; };
+		7CE598641D876A70BE007DA5 /* GAI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAI.h; path = GoogleAnalytics/Library/GAI.h; sourceTree = "<group>"; };
+		972D61F22A53ECFFBF595F7F /* GAIEcommerceFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceFields.h; path = GoogleAnalytics/Library/GAIEcommerceFields.h; sourceTree = "<group>"; };
+		9F671E6FFB03D7707911E011 /* Pods-easy game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-easy game.debug.xcconfig"; sourceTree = "<group>"; };
+		A011A62806BB930A6C640756 /* TAGManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAGManager.h; path = GoogleTagManager/Library/TAGManager.h; sourceTree = "<group>"; };
+		A5D43CF24D92CF73847BED8B /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProduct.h; path = GoogleAnalytics/Library/GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		B2D24D855941A837F3EE2420 /* Pods-easy game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-easy game.release.xcconfig"; sourceTree = "<group>"; };
+		C67C3861B16DEF7105439279 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIDictionaryBuilder.h; path = GoogleAnalytics/Library/GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		CAB048E2F5FC86E505C39D64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D611CF243FA2138234985942 /* libPods-easy game.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-easy game.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA7C07B195CF8BAA939AC04C /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProductAction.h; path = GoogleAnalytics/Library/GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		DBFA0691806A9EEB80909B13 /* Pods-easy game-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-easy game-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E394C12590511C6BFB7B3CFD /* TAGContainerOpener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAGContainerOpener.h; path = GoogleTagManager/Library/TAGContainerOpener.h; sourceTree = "<group>"; };
+		FE2146BDB014550FEBAEC541 /* GAILogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAILogger.h; path = GoogleAnalytics/Library/GAILogger.h; sourceTree = "<group>"; };
+		FEDDB8781AE20A0BF8FECC82 /* TAGDataLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAGDataLayer.h; path = GoogleTagManager/Library/TAGDataLayer.h; sourceTree = "<group>"; };
+		FF34C2A8F5ECD4CC20201BA3 /* TAGContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAGContainer.h; path = GoogleTagManager/Library/TAGContainer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9341A756E247891EC0EE6A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C52C7B7ADF9D082BEBDD5B17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D1171CC752A03B0787836C5 /* Pods-easy game */ = {
+			isa = PBXGroup;
+			children = (
+				DBFA0691806A9EEB80909B13 /* Pods-easy game-acknowledgements.markdown */,
+				31319C673AFEF9618E2B09BD /* Pods-easy game-acknowledgements.plist */,
+				64C8C04025966619E8059D00 /* Pods-easy game-dummy.m */,
+				3AB1CF13FA262A6B079EFC04 /* Pods-easy game-environment.h */,
+				5A40DFF82CA2C859C2FE87CA /* Pods-easy game-resources.sh */,
+				9F671E6FFB03D7707911E011 /* Pods-easy game.debug.xcconfig */,
+				B2D24D855941A837F3EE2420 /* Pods-easy game.release.xcconfig */,
+			);
+			name = "Pods-easy game";
+			path = "Target Support Files/Pods-easy game";
+			sourceTree = "<group>";
+		};
+		38330E9D7477945C92E324D6 /* GoogleAnalytics-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				71E0D094904CF0EEFCB857A7 /* Core */,
+			);
+			path = "GoogleAnalytics-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		3E865FBF28181B8708C35719 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D1171CC752A03B0787836C5 /* Pods-easy game */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3FBBE6C87BC4BD64DFD9D500 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CAB048E2F5FC86E505C39D64 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5A1E9A1F76660CCC4CD52976 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FBBE6C87BC4BD64DFD9D500 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71E0D094904CF0EEFCB857A7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7CE598641D876A70BE007DA5 /* GAI.h */,
+				C67C3861B16DEF7105439279 /* GAIDictionaryBuilder.h */,
+				972D61F22A53ECFFBF595F7F /* GAIEcommerceFields.h */,
+				A5D43CF24D92CF73847BED8B /* GAIEcommerceProduct.h */,
+				DA7C07B195CF8BAA939AC04C /* GAIEcommerceProductAction.h */,
+				52C98E3107B3152706445159 /* GAIEcommercePromotion.h */,
+				0712AC22C9B4EBF198FF9AE1 /* GAIFields.h */,
+				FE2146BDB014550FEBAEC541 /* GAILogger.h */,
+				1EC5B2544B6383D5FEE72449 /* GAITrackedViewController.h */,
+				44FB684434537773CE04B3FE /* GAITracker.h */,
+				FF34C2A8F5ECD4CC20201BA3 /* TAGContainer.h */,
+				E394C12590511C6BFB7B3CFD /* TAGContainerOpener.h */,
+				FEDDB8781AE20A0BF8FECC82 /* TAGDataLayer.h */,
+				6D7F99A4A17EAA0A4DF928B7 /* TAGLogger.h */,
+				A011A62806BB930A6C640756 /* TAGManager.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		761F344E49DD64FFBDBDF031 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D611CF243FA2138234985942 /* libPods-easy game.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		800D9D196257C27A65DE2655 = {
+			isa = PBXGroup;
+			children = (
+				4F0D8139F82612438B263DF2 /* Podfile */,
+				5A1E9A1F76660CCC4CD52976 /* Frameworks */,
+				EB79C29E332970F268461BD2 /* Pods */,
+				761F344E49DD64FFBDBDF031 /* Products */,
+				3E865FBF28181B8708C35719 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		EB79C29E332970F268461BD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38330E9D7477945C92E324D6 /* GoogleAnalytics-iOS-SDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10E5BCD9FE6395971DBD2059 /* Pods-easy game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D6CDB2F55A728222CA53E6D /* Build configuration list for PBXNativeTarget "Pods-easy game" */;
+			buildPhases = (
+				F39296D464A627E660B95AF7 /* Sources */,
+				A9341A756E247891EC0EE6A0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-easy game";
+			productName = "Pods-easy game";
+			productReference = D611CF243FA2138234985942 /* libPods-easy game.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78C3426D82DA9E356068C6EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = F5FFD89CE6D5CAD443F190C3 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 800D9D196257C27A65DE2655;
+			productRefGroup = 761F344E49DD64FFBDBDF031 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10E5BCD9FE6395971DBD2059 /* Pods-easy game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F39296D464A627E660B95AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5C02719D1C4A93B7979761 /* Pods-easy game-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3A87304A8701CC33FE29FFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B33711358A47B44491DD94CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9CA677373049C59122FE219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F671E6FFB03D7707911E011 /* Pods-easy game.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E1AE4D29B4D0C7137B145853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2D24D855941A837F3EE2420 /* Pods-easy game.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D6CDB2F55A728222CA53E6D /* Build configuration list for PBXNativeTarget "Pods-easy game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9CA677373049C59122FE219 /* Debug */,
+				E1AE4D29B4D0C7137B145853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5FFD89CE6D5CAD443F190C3 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A87304A8701CC33FE29FFBD /* Debug */,
+				B33711358A47B44491DD94CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78C3426D82DA9E356068C6EB /* Project object */;
+}

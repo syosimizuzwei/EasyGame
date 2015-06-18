@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
-@interface ViewController : UIViewController
+#import "GAI.h"
+
+@interface ViewController : GAITrackedViewController
 {
     IBOutlet UILabel *result;
     IBOutlet UIImageView *aite;

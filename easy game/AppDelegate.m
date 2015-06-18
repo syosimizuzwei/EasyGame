@@ -19,8 +19,6 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
     [self initializeGoogleAnalytics];/*初期化*/
-    
-    return YES;
 
     // StoryBoardの型宣言
     UIStoryboard *storyboard;
@@ -41,8 +39,7 @@
             storyBoardName = @"3.5Storyboard";
         }else if(r.size.height == 568){
             storyBoardName=@"4.0Storyboard";
-        }
-        else {
+        }else {
             storyBoardName = @"Main";
         }
     }else {
@@ -64,6 +61,7 @@
     
     return YES;
 }
+
 - (void)initializeGoogleAnalytics
 {
     // トラッキングIDを設定
