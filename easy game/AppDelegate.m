@@ -7,19 +7,21 @@
 //
 
 #import "AppDelegate.h"
-
+#import "GAI.h"
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
-
 @synthesize sbName;
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+    [self initializeGoogleAnalytics];/*初期化*/
     
+    return YES;
+
     // StoryBoardの型宣言
     UIStoryboard *storyboard;
     // StoryBoardの名称設定用
@@ -37,7 +39,10 @@
         // 縦の長さが480の場合、古いiPhoneだと判定
         if(r.size.height == 480) {
             storyBoardName = @"3.5Storyboard";
-        }else {
+        }else if(r.size.height == 568){
+            storyBoardName=@"4.0Storyboard";
+        }
+        else {
             storyBoardName = @"Main";
         }
     }else {
@@ -59,7 +64,15 @@
     
     return YES;
 }
-
+- (void)initializeGoogleAnalytics
+{
+    // トラッキングIDを設定
+    [[GAI sharedInstance] trackerWithTrackingId:@"UA-64250793-1"];
+    
+    // 例外を Google Analytics に送る
+    [GAI sharedInstance].trackUncaughtExceptions = YES;
+    
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

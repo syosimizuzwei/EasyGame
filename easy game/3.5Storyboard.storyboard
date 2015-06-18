@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="321" height="480"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DT2-QE-oau">
-                                <rect key="frame" x="72" y="353" width="177" height="79"/>
+                                <rect key="frame" x="72" y="347" width="191" height="79"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
                                 <state key="normal" title="はじめる">
                                     <color key="titleColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99607849120000003" alpha="1" colorSpace="deviceRGB"/>

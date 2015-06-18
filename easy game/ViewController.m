@@ -26,8 +26,13 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+
+
 - (void)viewWillDisappear:(BOOL)animated{
     [self.won stop];
+    guu.hidden=NO;
+    tyoki.hidden=NO;
+    paa.hidden=NO;
 }
 
 - (void)didReceiveMemoryWarning {
