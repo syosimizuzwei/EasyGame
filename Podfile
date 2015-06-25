@@ -3,7 +3,7 @@
 
 target 'easy game' do
 
-pod 'GoogleAnalytics-iOS-SDK', '~> 3.12'
+pod 'GoogleAnalytics', '~> 3.12.0'
 
 end
 
